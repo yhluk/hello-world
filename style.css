@@ -1,0 +1,26 @@
+header{
+    background-color: #6f802c;
+    color: rgb(12, 12, 174);
+    text-shadow: 5px 5px 5px rgb(102, 102, 241);
+}
+nav ul{
+    background-color: aqua;
+}
+
+
+body{
+    background-color: #b9cf63;
+}
+footer{
+    background-color: #cedb9e;
+    color:rgb(156, 20, 225)
+
+}
+.bikes img {
+
+}
+/*#sign img {
+    box-shadow: 10px 10px 10px 10px olive;
+    float: left;
+    margin: 40in;
+} */
