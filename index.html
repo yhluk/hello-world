@@ -7,9 +7,27 @@
 </head>
 
 <body>
-    <header id="sign" >
-        <h1>Seattle Bike Shop</h1>
-        <img src="img/sign.jpg"/>
+    <script>
+        let userName = prompt("Hello Rider, who are you?")
+        document.write("Rider " + userName);
+
+        let response = prompt("Do you promise to ride safe?");
+        if (response == "Yes") {
+            alert("Good Job");
+            document.write("  promised to be SAFE");
+        } else if (response == "No") {
+            alert("That's TERRIBLE CHOISE");
+            document.write("  is DANGEROUS :)");
+        } else {
+            alert("Try again!!!");
+            document.write(" not sure about his life");
+        }
+
+    </script>
+    <header>
+       <img id="sign" src="img/sign.jpg" />
+        <h1 id="top">Seattle Bike Shop</h1>
+        
         <nav>
             <ul>
                 <li><a href="https://www.singletracks.com/bike-trails/region/washington/?orderby=best&order=DESC">
@@ -20,35 +38,53 @@
     </header>
     <main>
         <section>
-            <img src="https://images.unsplash.com/photo-1575585269294-7d28dd912db8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            <img class="bikes" src="https://images.unsplash.com/photo-1575585269294-7d28dd912db8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                 alt="Mountain Bike" />
             <h2>Mountain Bike</h2>
             <p>Mountain bikers in Seattle are spoiled with several world-class trails just a short drive from the heart
                 of the city. The mountain bike trails near Seattle have a nice variety of riding, too, offering
+                everything from bike park jump lines to singletrack cross country trails. ountain bikers in Seattle are spoiled with several world-class trails just a short drive from the heart
+                of the city. The mountain bike trails near Seattle have a nice variety of riding, too, offering
+                everything from bike park jump lines to singletrack cross country trails. ountain bikers in Seattle are spoiled with several world-class trails just a short drive from the heart
+                of the city. The mountain bike trails near Seattle have a nice variety of riding, too, offering
                 everything from bike park jump lines to singletrack cross country trails. </p>
         </section>
+        <br />
+        <br />
         <section>
-            <img src="https://images.unsplash.com/photo-1623709099496-8902e067238c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            <img class="bikes" src="https://images.unsplash.com/photo-1623709099496-8902e067238c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                 alt="Road Bike" />
             <h2>Road Bike</h2>
             <p>What is Road Cycling? It's possible to define road cycling for beginners too narrowly. Broadly speaking,
                 anyone who rides a bicycle on paved surface streets and roads — as opposed to off-road trails,
                 backcountry landscapes, beaches or uncharted wilderness — is a road cyclist, whether the purpose of that
                 cycling is errand running, messengering, commuting, recreating, exercising, adventuring, touring or
-                racing. </p>
+                racing. ountain bikers in Seattle are spoiled with several world-class trails just a short drive from the heart
+                of the city. The mountain bike trails near Seattle have a nice variety of riding, too, offering
+                everything from bike park jump lines to singletrack cross country trails. </p>
         </section>
+        <br />
+        <br />
+
         <section>
-            <img src="https://images.unsplash.com/photo-1470157673928-c566cc73cc00?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80"
+            <img class="bikes" src="https://images.unsplash.com/photo-1470157673928-c566cc73cc00?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80"
                 alt="Bike shop History" />
             <h2> Bike shop History </h2>
             <p>It began in 1968 by Glenn Tamura at a closed down gas station in the Madison Park neighborhood. With the
                 vision of bikes being more than kids toys, Velo started as a rental business offering bikes for people
-                to ride around the University of Washington, Arboretum and along Lake Washington Boulevard. </p>
+                to ride around the University of Washington, ountain bikers in Seattle are spoiled with several world-class trails just a short drive from the heart
+                of the city. The mountain bike trails near Seattle have a nice variety of riding, too, offering
+                everything from bike park jump lines to singletrack cross country trails. ountain bikers in Seattle are spoiled with several world-class trails just a short drive from the heart
+                of the city. The mountain bike trails near Seattle have a nice variety of riding, too, offering
+                everything from bike park jump lines to singletrack cross country trails. ountain bikers in Seattle are spoiled with several world-class trails just a short drive from the heart
+                of the city. The mountain bike trails near Seattle have a nice variety of riding, too, offering
+                everything from bike park jump lines to singletrack cross country trails. Arboretum and along Lake Washington Boulevard. </p>
         </section>
     </main>
 </body>
-<footer>
-    <p>&copy; Seattle Shop</p>
+<footer id = "contactUs">
+    <p>&copy; Seattle Shop; Contact us at 2069999999</p>
+    <h2><a href="#top">SEE ME AGAIN</a></h2>
 </footer>
 
 </html>
