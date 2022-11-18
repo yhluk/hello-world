@@ -15,10 +15,13 @@ hello(
 
 
 let response = prompt("Do you promise to ride safe?");
-if (response == "Yes") {
+response=response.toLowerCase(
+    
+)
+if (response == "yes") {
     alert("Good Job");
     document.write(" You promised to be SAFE");
-} else if (response == "No") {
+} else if (response == "no") {
     alert("That's TERRIBLE CHOISE");
     document.write(" Very DANGEROUS :)");
 } else {
