@@ -45,6 +45,12 @@ footer{
      
     float: right;
     height: 200px;
+    border:2px solid #fff;
+  background: no-repeat;
+  -moz-box-shadow: inset 10px 10px 50px #fff;
+  -webkit-box-shadow: inset 10px 10px 50px #fff;
+  box-shadow: inset 10px 10px 50px #fff;
+}
 
 }
 .rating-pic {
